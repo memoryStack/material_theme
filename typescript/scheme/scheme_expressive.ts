@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-import {Hct} from '../hct/hct.js';
-import {TonalPalette} from '../palettes/tonal_palette.js';
-import * as math from '../utils/math_utils.js';
+import {Hct} from '../hct/hct';
+import {TonalPalette} from '../palettes/tonal_palette';
+import * as math from '../utils/math_utils';
 
-import {DynamicScheme} from './dynamic_scheme.js';
-import {Variant} from './variant.js';
+import {DynamicScheme} from './dynamic_scheme';
+import {Variant} from './variant';
 
 /**
  * A Dynamic Color theme that is intentionally detached from the source color.

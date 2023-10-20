@@ -28,7 +28,7 @@
   },
   "include": [
     "**/*.ts"
-  ],
+, "palettes/palettes.test.js"  ],
   "exclude": [
     "**/*_test.ts"
   ]

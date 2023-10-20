@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-import {DislikeAnalyzer} from '../dislike/dislike_analyzer.js';
-import {Hct} from '../hct/hct.js';
-import {DynamicScheme} from '../scheme/dynamic_scheme.js';
-import {Variant} from '../scheme/variant.js';
+import {DislikeAnalyzer} from '../dislike/dislike_analyzer';
+import {Hct} from '../hct/hct';
+import {DynamicScheme} from '../scheme/dynamic_scheme';
+import {Variant} from '../scheme/variant';
 
-import {ContrastCurve} from './contrast_curve.js';
-import {DynamicColor} from './dynamic_color.js';
-import {ToneDeltaPair} from './tone_delta_pair.js';
+import {ContrastCurve} from './contrast_curve';
+import {DynamicColor} from './dynamic_color';
+import {ToneDeltaPair} from './tone_delta_pair';
 
 function isFidelity(scheme: DynamicScheme): boolean {
   return scheme.variant === Variant.FIDELITY ||

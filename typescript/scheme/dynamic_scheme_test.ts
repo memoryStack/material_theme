@@ -17,8 +17,8 @@
 
 import 'jasmine';
 
-import {DynamicScheme} from './dynamic_scheme.js';
-import {Hct} from '../hct/hct.js';
+import {DynamicScheme} from './dynamic_scheme';
+import {Hct} from '../hct/hct';
 
 describe('dynamic scheme test', () => {
   it('0 length input', () => {

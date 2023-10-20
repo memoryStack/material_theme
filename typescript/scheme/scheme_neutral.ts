@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-import {Hct} from '../hct/hct.js';
-import {TonalPalette} from '../palettes/tonal_palette.js';
+import {Hct} from '../hct/hct';
+import {TonalPalette} from '../palettes/tonal_palette';
 
-import {DynamicScheme} from './dynamic_scheme.js';
-import {Variant} from './variant.js';
+import {DynamicScheme} from './dynamic_scheme';
+import {Variant} from './variant';
 
 /** A Dynamic Color theme that is near grayscale. */
 export class SchemeNeutral extends DynamicScheme {

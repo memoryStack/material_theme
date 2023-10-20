@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-import {Hct} from '../hct/hct.js';
+import {Hct} from '../hct/hct';
 
-import {TonalPalette} from './tonal_palette.js';
+import {TonalPalette} from './tonal_palette';
 
 /**
  * Set of colors to generate a [CorePalette] from
